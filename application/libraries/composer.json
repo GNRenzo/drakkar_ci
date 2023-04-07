@@ -1,0 +1,6 @@
+{
+    "require": {
+        "xthiago/pdf-version-converter": "dev-master",
+        "league/flysystem-aws-s3-v3": "^2.5"
+    }
+}

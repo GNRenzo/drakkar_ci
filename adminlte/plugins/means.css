@@ -1,0 +1,96 @@
+.nodata{
+
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    border: solid 2px #bdbdbd;
+    border-style: dashed;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #999;
+
+}
+
+
+.docfile:hover .documento {
+  opacity: 0.3;
+}
+
+
+.docfile:hover .iconoEye {
+  opacity: 1;
+}
+
+.docfile {
+   
+    
+}
+
+.docItem {
+    border: 1px solid #eee;
+    
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+    
+}
+
+.folder {
+    border: 1px solid #fff0b3;
+    
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+   
+}
+
+
+.process {
+    border: 1px solid #ffcccc;
+    
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+   
+}
+
+
+.subprocess {
+    border: 1px solid #99ffe6;
+    
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+   
+}
+
+
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,.6) !important;
+}
+
+.ovtext {
+    color: #FFF;
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.docfile:hover .overlay, .mailbox-attachment-icon:hover .overlay{
+    opacity: 1;
+}
+
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
